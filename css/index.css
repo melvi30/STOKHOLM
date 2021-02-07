@@ -297,8 +297,6 @@ body{
 
         text-align: center;
     }
-
-    }
     .main .producto .centrado .columna .p{
         font-size: .8em;
         text-align: center;
@@ -306,5 +304,4 @@ body{
     .main .producto .centrado .columna .a{
         margin: 0 0 5em 0;
     }
-    
 }
