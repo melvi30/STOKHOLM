@@ -1,12 +1,11 @@
 :root{
-/* Colores principales */
---naranja : #e6ae48;
---gris  : #393939;
---blanco: white;
+  /* Colores principales */
+  --naranja : #e6ae48;
+  --gris  : #393939;
+  --blanco: white;
 
-/* Colores secundarios */
---grisClaro: #a7a7a7;
-
+  /* Colores secundarios */
+  --grisClaro: #a7a7a7;
 
 }
 *{  
@@ -45,6 +44,7 @@ html{
 body{
   font-size: 100%;
   color:var(--gris);
+  background-color: var(--blanco);
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,7 +58,7 @@ body{
 
 }
 .header .centrado{
-  width: 95%;
+  width: 93%;
   /* min-height: 50px; */
   /* background-color: lightblue; */
   margin: auto;
@@ -350,4 +350,12 @@ body{
   .main .producto .centrado .columna .a{
       margin: 0 0 5em 0;
     }
+}
+
+@media screen and (prefers-color-scheme:dark){
+  :root{
+      --amarillo : #e6ae48;
+      --gris    : white;
+      --blanco   : #393939;
+  }
 }
