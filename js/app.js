@@ -6,7 +6,7 @@
 const fas = document.querySelector(".fas")
 const menu = document.querySelector(".menu")
 
-    fas.addEventListener("click",function() {
-        menu.querySelector.add("ver")
+    fas.addEventListener("click",function(){
+        menu.classList.toggle("ver")
     })
 

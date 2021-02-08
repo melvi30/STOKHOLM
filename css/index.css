@@ -325,7 +325,7 @@ body{
       display: none;
   }
   .header .menu.ver{
-    display: flex;
+    display: block;
   }
 
   .main .producto .centrado{
