@@ -259,18 +259,18 @@ body{
   max-width: 1100px;
   /* background-color: aqua; */
 }
-.footer .h3{
+.footer .centrado .h3{
   font-size: 4em;
   color:var(--blanco);
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .18em;
 }
-.footer .copy{
+.footer .centrado .copy{
   color: var(--naranja);
   font-size: .8em;
 }
-.footer .linea{
+.footer .centrado .linea{
   width: 100%;
   max-width: 120px;
   min-height: 2px;
@@ -280,7 +280,7 @@ body{
   
   display: inline-flex;
 }
-.footer .ul{
+.footer .centrado .ul{
 
   display: flex;
   flex-flow: row wrap;
@@ -291,8 +291,8 @@ body{
   margin:2em 0;
 
 }
-.footer .li{}
-.footer .a{
+.footer .centrado .ul .li{}
+.footer .centrado .ul .li .a{
   width: 25px;
   height: 25px;
   background-color:var(--blanco);
@@ -311,7 +311,7 @@ body{
   transition:all .5s ease;
 } 
 
-.footer .a:hover{
+.footer .centrado .ul .li .a:hover{
   background-color: var(--naranja);
 }
 
@@ -344,10 +344,10 @@ body{
       margin:1.5em 0 0;
       font-size: 1.5em;
     }
-  .main .producto .p{
+  .main .producto .centrado .columna .p{
       font-size: .8em;
     }
-  .main .producto .a{
+  .main .producto .centrado .columna .a{
       margin: 0 0 5em 0;
     }
 }
