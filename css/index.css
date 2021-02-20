@@ -323,9 +323,11 @@ body{
 
   .header .menu{
       display: none;
+      position: relative;
   }
   .header .menu.ver{
     display: block;
+    position: absolute;
   }
 
   .main .producto .centrado{
