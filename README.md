@@ -19,3 +19,6 @@ Entrega de práctica de Stockholm, para el curso de desarrollo de Front-end.
  ## Curso de desarrollo Web Front-End 👇
  - [Bejob](https://www.bejob.com/)
  - [Women4IT](https://women4it.eu/)
+
+## MIT License 📄
+Copyright (c) Mariana Mujica Gonzalez
