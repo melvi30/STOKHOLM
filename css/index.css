@@ -130,7 +130,7 @@ body {
 .header .ul2 {
   display: none;
   width: 100%;
-  min-width: 20em;
+  min-width: 18em;
   background-color: var(--blanco);
   border-top: var(--naranja) 0.5em solid;
   padding: 1em 0;
@@ -140,12 +140,10 @@ body {
   letter-spacing: 0em;
   text-transform: capitalize;
   position: absolute;
-  transform: translateX(-1em) translateY(4em);
 }
 
 .header .li2 {
   padding: 1em 1.5em;
-  background-color: var(--blanco);
 }
 
 .header .li2.izq {
@@ -155,6 +153,11 @@ body {
 
 .header .li:hover .ul2 {
   display: block;
+}
+
+.header .ul2.izq.shop {
+  transform: translateX(-9em);
+  min-width: 15em;
 }
 
 .main {
