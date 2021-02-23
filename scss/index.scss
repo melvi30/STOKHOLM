@@ -190,9 +190,9 @@ body{
   width: calc( 90% / 2 );
   /* background-color: lightcoral; */
 }
-.main .img{
-  /* background-color: rebeccapurple; */
-}
+// .main .img{
+//   /* background-color: rebeccapurple; */
+// }
 .main .h2{
   /* background-color: lightpink; */
 
@@ -239,11 +239,11 @@ body{
   flex-flow: row-reverse wrap;
   text-align: right;
 }
-.main .amarillo .h2{}
+// .main .amarillo .h2{}
 .main .amarillo .raya{
   background-color: var(--blanco);
 }
-.main .amarillo .p{}
+// .main .amarillo .p{}
 .main .amarillo .a{
   color:var(--blanco);
   border: .2em solid var(--blanco);
@@ -303,7 +303,7 @@ body{
   margin:2em 0;
 
 }
-.footer .centrado .ul .li{}
+// .footer .centrado .ul .li{}
 .footer .centrado .ul .li .a{
   width: 25px;
   height: 25px;
